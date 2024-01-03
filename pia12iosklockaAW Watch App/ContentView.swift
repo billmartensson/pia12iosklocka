@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  pia12iosklocka
+//  pia12iosklockaAW Watch App
 //
 //  Created by BillU on 2024-01-03.
 //
@@ -18,7 +18,7 @@ struct ContentView: View {
                 FancyboxView()
                 List {
                     ForEach(peopleapi.people, id: \.firstname) { person in
-                        NavigationLink(destination: Text("ABC")) {
+                        NavigationLink(destination: PersonView(currentperson: person)) {
                             Text(person.firstname)
                         }
                     }

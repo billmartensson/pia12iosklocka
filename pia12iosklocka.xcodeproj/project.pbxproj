@@ -7,22 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8ABFCC12B45620200CAB3F4 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ABFCC02B45620200CAB3F4 /* PersonView.swift */; };
+		E8ABFCC32B45633D00CAB3F4 /* FancyboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ABFCC22B45633D00CAB3F4 /* FancyboxView.swift */; };
+		E8ABFCC42B45633D00CAB3F4 /* FancyboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ABFCC22B45633D00CAB3F4 /* FancyboxView.swift */; };
+		E8ABFCC62B45647B00CAB3F4 /* PersonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ABFCC52B45647B00CAB3F4 /* PersonAPI.swift */; };
+		E8ABFCC72B45647B00CAB3F4 /* PersonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ABFCC52B45647B00CAB3F4 /* PersonAPI.swift */; };
+		E8ABFCCA2B4567FE00CAB3F4 /* SharedAssetstuff.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8ABFCC92B4567FE00CAB3F4 /* SharedAssetstuff.xcassets */; };
+		E8ABFCCB2B4567FE00CAB3F4 /* SharedAssetstuff.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8ABFCC92B4567FE00CAB3F4 /* SharedAssetstuff.xcassets */; };
 		E8EAA8752B454E1800F59721 /* pia12iosklockaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EAA8742B454E1800F59721 /* pia12iosklockaApp.swift */; };
 		E8EAA8772B454E1800F59721 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EAA8762B454E1800F59721 /* ContentView.swift */; };
 		E8EAA8792B454E1A00F59721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8EAA8782B454E1A00F59721 /* Assets.xcassets */; };
 		E8EAA87C2B454E1A00F59721 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8EAA87B2B454E1A00F59721 /* Preview Assets.xcassets */; };
+		E8EAA8892B454F6200F59721 /* pia12iosklockaAWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EAA8882B454F6200F59721 /* pia12iosklockaAWApp.swift */; };
+		E8EAA88B2B454F6200F59721 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EAA88A2B454F6200F59721 /* ContentView.swift */; };
+		E8EAA88D2B454F6400F59721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8EAA88C2B454F6400F59721 /* Assets.xcassets */; };
+		E8EAA8902B454F6400F59721 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8EAA88F2B454F6400F59721 /* Preview Assets.xcassets */; };
+		E8EAA8932B454F6400F59721 /* pia12iosklockaAW Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E8EAA8862B454F6200F59721 /* pia12iosklockaAW Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E8EAA8912B454F6400F59721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8EAA8692B454E1800F59721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8EAA8852B454F6200F59721;
+			remoteInfo = "pia12iosklockaAW Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E8EAA8972B454F6400F59721 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E8EAA8932B454F6400F59721 /* pia12iosklockaAW Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		E8ABFCC02B45620200CAB3F4 /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		E8ABFCC22B45633D00CAB3F4 /* FancyboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyboxView.swift; sourceTree = "<group>"; };
+		E8ABFCC52B45647B00CAB3F4 /* PersonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonAPI.swift; sourceTree = "<group>"; };
+		E8ABFCC92B4567FE00CAB3F4 /* SharedAssetstuff.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SharedAssetstuff.xcassets; sourceTree = "<group>"; };
+		E8ABFCCC2B456E6000CAB3F4 /* pia12iosklocka.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pia12iosklocka.entitlements; sourceTree = "<group>"; };
+		E8ABFCCD2B456E8A00CAB3F4 /* pia12iosklockaAW Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "pia12iosklockaAW Watch App.entitlements"; sourceTree = "<group>"; };
 		E8EAA8712B454E1800F59721 /* pia12iosklocka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pia12iosklocka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EAA8742B454E1800F59721 /* pia12iosklockaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pia12iosklockaApp.swift; sourceTree = "<group>"; };
 		E8EAA8762B454E1800F59721 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E8EAA8782B454E1A00F59721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8EAA87B2B454E1A00F59721 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E8EAA8862B454F6200F59721 /* pia12iosklockaAW Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pia12iosklockaAW Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8EAA8882B454F6200F59721 /* pia12iosklockaAWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pia12iosklockaAWApp.swift; sourceTree = "<group>"; };
+		E8EAA88A2B454F6200F59721 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E8EAA88C2B454F6400F59721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8EAA88F2B454F6400F59721 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E8EAA86E2B454E1800F59721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8EAA8832B454F6200F59721 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				E8EAA8732B454E1800F59721 /* pia12iosklocka */,
+				E8EAA8872B454F6200F59721 /* pia12iosklockaAW Watch App */,
 				E8EAA8722B454E1800F59721 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				E8EAA8712B454E1800F59721 /* pia12iosklocka.app */,
+				E8EAA8862B454F6200F59721 /* pia12iosklockaAW Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +107,14 @@
 		E8EAA8732B454E1800F59721 /* pia12iosklocka */ = {
 			isa = PBXGroup;
 			children = (
+				E8ABFCCC2B456E6000CAB3F4 /* pia12iosklocka.entitlements */,
 				E8EAA8742B454E1800F59721 /* pia12iosklockaApp.swift */,
 				E8EAA8762B454E1800F59721 /* ContentView.swift */,
+				E8ABFCC22B45633D00CAB3F4 /* FancyboxView.swift */,
 				E8EAA8782B454E1A00F59721 /* Assets.xcassets */,
+				E8ABFCC92B4567FE00CAB3F4 /* SharedAssetstuff.xcassets */,
 				E8EAA87A2B454E1A00F59721 /* Preview Content */,
+				E8ABFCC52B45647B00CAB3F4 /* PersonAPI.swift */,
 			);
 			path = pia12iosklocka;
 			sourceTree = "<group>";
@@ -63,6 +123,27 @@
 			isa = PBXGroup;
 			children = (
 				E8EAA87B2B454E1A00F59721 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E8EAA8872B454F6200F59721 /* pia12iosklockaAW Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				E8ABFCCD2B456E8A00CAB3F4 /* pia12iosklockaAW Watch App.entitlements */,
+				E8EAA8882B454F6200F59721 /* pia12iosklockaAWApp.swift */,
+				E8EAA88A2B454F6200F59721 /* ContentView.swift */,
+				E8ABFCC02B45620200CAB3F4 /* PersonView.swift */,
+				E8EAA88C2B454F6400F59721 /* Assets.xcassets */,
+				E8EAA88E2B454F6400F59721 /* Preview Content */,
+			);
+			path = "pia12iosklockaAW Watch App";
+			sourceTree = "<group>";
+		};
+		E8EAA88E2B454F6400F59721 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E8EAA88F2B454F6400F59721 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -77,14 +158,33 @@
 				E8EAA86D2B454E1800F59721 /* Sources */,
 				E8EAA86E2B454E1800F59721 /* Frameworks */,
 				E8EAA86F2B454E1800F59721 /* Resources */,
+				E8EAA8972B454F6400F59721 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8EAA8922B454F6400F59721 /* PBXTargetDependency */,
+			);
+			name = pia12iosklocka;
+			productName = pia12iosklocka;
+			productReference = E8EAA8712B454E1800F59721 /* pia12iosklocka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8EAA8852B454F6200F59721 /* pia12iosklockaAW Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8EAA8942B454F6400F59721 /* Build configuration list for PBXNativeTarget "pia12iosklockaAW Watch App" */;
+			buildPhases = (
+				E8EAA8822B454F6200F59721 /* Sources */,
+				E8EAA8832B454F6200F59721 /* Frameworks */,
+				E8EAA8842B454F6200F59721 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = pia12iosklocka;
-			productName = pia12iosklocka;
-			productReference = E8EAA8712B454E1800F59721 /* pia12iosklocka.app */;
+			name = "pia12iosklockaAW Watch App";
+			productName = "pia12iosklockaAW Watch App";
+			productReference = E8EAA8862B454F6200F59721 /* pia12iosklockaAW Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,6 +198,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					E8EAA8702B454E1800F59721 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					E8EAA8852B454F6200F59721 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -116,6 +219,7 @@
 			projectRoot = "";
 			targets = (
 				E8EAA8702B454E1800F59721 /* pia12iosklocka */,
+				E8EAA8852B454F6200F59721 /* pia12iosklockaAW Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +231,17 @@
 			files = (
 				E8EAA87C2B454E1A00F59721 /* Preview Assets.xcassets in Resources */,
 				E8EAA8792B454E1A00F59721 /* Assets.xcassets in Resources */,
+				E8ABFCCA2B4567FE00CAB3F4 /* SharedAssetstuff.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8EAA8842B454F6200F59721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8EAA8902B454F6400F59721 /* Preview Assets.xcassets in Resources */,
+				E8EAA88D2B454F6400F59721 /* Assets.xcassets in Resources */,
+				E8ABFCCB2B4567FE00CAB3F4 /* SharedAssetstuff.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,11 +253,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8EAA8772B454E1800F59721 /* ContentView.swift in Sources */,
+				E8ABFCC32B45633D00CAB3F4 /* FancyboxView.swift in Sources */,
 				E8EAA8752B454E1800F59721 /* pia12iosklockaApp.swift in Sources */,
+				E8ABFCC62B45647B00CAB3F4 /* PersonAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8EAA8822B454F6200F59721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8ABFCC12B45620200CAB3F4 /* PersonView.swift in Sources */,
+				E8EAA88B2B454F6200F59721 /* ContentView.swift in Sources */,
+				E8ABFCC42B45633D00CAB3F4 /* FancyboxView.swift in Sources */,
+				E8ABFCC72B45647B00CAB3F4 /* PersonAPI.swift in Sources */,
+				E8EAA8892B454F6200F59721 /* pia12iosklockaAWApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8EAA8922B454F6400F59721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8EAA8852B454F6200F59721 /* pia12iosklockaAW Watch App */;
+			targetProxy = E8EAA8912B454F6400F59721 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E8EAA87D2B454E1A00F59721 /* Debug */ = {
@@ -267,11 +404,14 @@
 		E8EAA8802B454E1A00F59721 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = pia12iosklocka/pia12iosklocka.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"pia12iosklocka/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,11 +435,14 @@
 		E8EAA8812B454E1A00F59721 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = pia12iosklocka/pia12iosklocka.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"pia12iosklocka/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -320,6 +463,68 @@
 			};
 			name = Release;
 		};
+		E8EAA8952B454F6400F59721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "pia12iosklockaAW Watch App/pia12iosklockaAW Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pia12iosklockaAW Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = pia12iosklockaAW;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = se.magictechnology.pia12iosklocka;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.pia12iosklocka.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		E8EAA8962B454F6400F59721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "pia12iosklockaAW Watch App/pia12iosklockaAW Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pia12iosklockaAW Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = pia12iosklockaAW;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = se.magictechnology.pia12iosklocka;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.pia12iosklocka.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -337,6 +542,15 @@
 			buildConfigurations = (
 				E8EAA8802B454E1A00F59721 /* Debug */,
 				E8EAA8812B454E1A00F59721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8EAA8942B454F6400F59721 /* Build configuration list for PBXNativeTarget "pia12iosklockaAW Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8EAA8952B454F6400F59721 /* Debug */,
+				E8EAA8962B454F6400F59721 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
